@@ -251,3 +251,84 @@ main {
     padding: 5px 8px;
 
 }
+
+
+
+
+
+/* new andriod phone... */
+
+.new-andriod h2{
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.flex-section-1{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin: 0 50px; */
+}
+.flex-section-1 img{
+    width: 70%;
+    height: auto;
+}
+
+.item-1, .item-2, .item-3{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 25px;
+    font-size: 8px;
+    padding: 10px 0;
+}
+.item-1{
+    background-color: #e8ebde;
+}
+
+.item-2{
+    background-color: #d0e8e5;
+}
+
+.item-3{
+    background-color: #d1e0e7;
+}
+
+
+.flex-section-2{
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* margin: 0 50px; */
+}
+.flex-section-2 img{
+    width: 70%;
+    height: auto;
+}
+
+.item-1a, .item-1b, .item-1c{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 25px;
+    font-size: 8px;
+    padding: 10px 0;
+}
+.item-1a{
+    background-color: #e8ebde;
+    width: 120%;
+}
+
+.item-1b{
+    background-color: #d0e8e5;
+}
+
+.item-1c{
+    background-color: #d1e0e7;
+}
+
+.last-button{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.last-button button{
+    border-radius: 15px;
+}
