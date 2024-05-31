@@ -2,31 +2,61 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #fff;
     color: #333;
+    font-family: 'Nunito', sans-serif;
 }
 
-.android-header {
+/* .android-header {
     background-color: #202124;
     color: #ffffff;
     padding: 1rem 2rem;
-}
+} */
 
-.android-header__container {
+.android-header {
+    height: 120px;
     display: flex;
     align-items: center;
-    justify-content: space-betwwen;
+    justify-content: space-around;
+    box-shadow: 0 0 4px #696363;
 }
 
-.android-header__logo img {
-    height: 40px;
+.android-header img {
+    width: 120px;
+    height: auto;
 }
 
-.android-header__bar {
+nav ul{
     display: flex;
+    gap: 35px;
+    font-size: 20px;
+    font-weight: bold;
     align-items: center;
 }
 
+.shop-phones{
+    background-color: black;
+    color: #fff;
+    border-radius: 20px;
+    padding: 12px 19px;
+
+}
+
+.nav option{
+    width: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+
+
+/* .android-header__nav {
+    display: flex;
+    align-items: center;
+} */
+/* 
 .android-header__primary {
     display: flex;
     list-style: none;
@@ -140,7 +170,7 @@ nav u1 {
 nav u1 li {
     color: white;
     text-decoration: none;
-}
+} */ */
 /* 
 main {
     padding: 20px;
@@ -155,118 +185,121 @@ main {
 
 /* first section styling */
 
+.first-section{
+    border: 2px solid red;
+}
+
 .first-image{
     text-align: center;
 }
 
 .first-image img{
-    width: 80px;
+    margin-top: 70px;
+    width: 150px;
     height: auto;
 }
 
 .video-frame1{
-    padding: 0 40px;
+    padding: 0 130px;
     margin-top: 0;
 }
 
 .video-frame1 img{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .text-1{
-    /* color: #fff; */
-    /* position: absolute; */
-    /* top: 220px; */
-    margin-left: 70px;
-    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    top: 400px;
+    margin-left: 210px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .buttons-1 button{
-    border: 2px red solid;
     border-radius: 15px;
-    padding: 5px 8px;
+    width: 100px;
+    height: 40px;
+    padding: 5px 15px;
 
 }
 
 /* second section */
 
 .second-section{
-    padding: 0 40px;
+    padding: 0 130px;
     margin-top: 15px;
-    /* position: absolute; */
-    /* top: 155px; */
 }
 
 .video-2 video{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .text-2{
-    /* color: #fff; */
-    /* position: absolute; */
-    /* top: 220px; */
-    margin-left: 70px;
-    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    top: 90rem;
+    margin-left: 210px;
+    font-size: 45px;
     font-weight: bold;
 }
 
 .button-2 button{
-    border: 2px red solid;
     border-radius: 15px;
-    padding: 5px 8px;
+    width: 100px;
+    height: 40px;
+    padding: 5px 15px;
 }
 
 /* third section */
 
 .third-section{
-    padding: 0 40px;
+    padding: 0 130px;
     margin-top: 15px;
-    /* position: absolute; */
-    /* top: 155px; */
 }
 
 .video-3 video{
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 50px;
 }
 
 .text-3{
-    /* color: #fff; */
-    /* position: absolute; */
-    /* top: 220px; */
-    margin-left: 70px;
-    font-size: 17px;
+    color: #110e0e;
+    position: absolute;
+    top: 150rem;
+    margin-left: 100px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .button-3 button{
-    border: 2px red solid;
     border-radius: 15px;
-    padding: 5px 8px;
+    width: 100px;
+    height: 40px;
+    padding: 5px 15px;
 
 }
-
-
-
-
 
 /* new andriod phone... */
 
 .new-andriod h2{
     text-align: center;
     margin-bottom: 3px;
+    font-size: 50px;
 }
 
 .flex-section-1{
     display: flex;
-    /* justify-content: space-evenly; */
-    /* margin: 0 50px; */
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 100px;
+    height: 35rem;
 }
 .flex-section-1 img{
     width: 70%;
@@ -277,8 +310,9 @@ main {
     text-align: center;
     border-radius: 10px;
     margin: 0 25px;
-    font-size: 8px;
-    padding: 10px 0;
+    font-size: 25px;
+    padding-top: 30px;
+
 }
 .item-1{
     background-color: #e8ebde;
@@ -292,12 +326,20 @@ main {
     background-color: #d1e0e7;
 }
 
+.flex-section-1 button{
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: #e8ebde10;
+}
+
 
 .flex-section-2{
-    margin-top: 10px;
     display: flex;
-    /* justify-content: space-evenly; */
-    /* margin: 0 50px; */
+    justify-content: center;
+    height: 35rem;
+    margin: 30px 100px;
 }
 .flex-section-2 img{
     width: 70%;
@@ -308,12 +350,12 @@ main {
     text-align: center;
     border-radius: 10px;
     margin: 0 25px;
-    font-size: 8px;
-    padding: 10px 0;
+    font-size: 25px;
+    padding-top: 30px;
 }
 .item-1a{
     background-color: #e8ebde;
-    width: 120%;
+    /* width: 120% */
 }
 
 .item-1b{
@@ -324,11 +366,50 @@ main {
     background-color: #d1e0e7;
 }
 
+.flex-section-2 button{
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: #e8ebde10;
+}
+
 .last-button{
     text-align: center;
-    margin-top: 10px;
 }
 
 .last-button button{
-    border-radius: 15px;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: #110e0e;
+    color: #fff;
 }
+
+/* last section */
+
+.last-section{
+    margin-top: 150px;
+    background-color: #dfecd5;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50rem;
+    font-size: 30px;
+}
+
+.last-section-img img{
+    width: 50rem;
+}
+.last-section button{
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid;
+    background-color: #110e0e;
+    color: #fff;
+}
+
+/* style the footer here */
