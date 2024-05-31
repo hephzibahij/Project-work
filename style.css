@@ -6,13 +6,132 @@ body {
     color: #333;
 }
 
-header {
-    background-color: #2196F3;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
+.android-header {
+    background-color: #202124;
+    color: #ffffff;
+    padding: 1rem 2rem;
 }
 
+.android-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-betwwen;
+}
+
+.android-header__logo img {
+    height: 40px;
+}
+
+.android-header__bar {
+    display: flex;
+    align-items: center;
+}
+
+.android-header__primary {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.android-header__primary-item {
+    margin: 0 1rem;
+    position: relative;
+}
+
+.cta span {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.cta svg {
+    width: 12px;
+    height: 12px;
+}
+
+.android-header__primary-dropdown {
+    background-color: #3c4043;
+    border-radius: 4px;
+    display: none;
+    padding: 1rem;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 1000;
+}
+
+.android-header__primary-item:hover .android-header__primary-dropdown {
+    display: block;
+  }
+  
+  .android-header__primary-dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .android-header__primary-dropdown li {
+    margin: 0.5rem 0;
+  }
+  
+  .android-header__primary-dropdown a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .android-header__primary-dropdown a:hover {
+    text-decoration: underline;
+  }
+  
+  .search-default {
+    display: flex;
+    align-items: center;
+    background-color: #3c4043;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .search-default__label {
+    display: none;
+  }
+  
+  .search-default__open {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .search-default__input {
+    background: none;
+    border: none;
+    color: #ffffff;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+  }
+  
+  .search-default__input::placeholder {
+    color: #9aa0a6;
+  }
+  
+  .search-default__close {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0.5rem;
+  }
+  
+  .search-default__icon {
+    width: 20px;
+    height: 20px;
+  }
+  
 nav u1 {
     list-style: none;
     padding: 0;
