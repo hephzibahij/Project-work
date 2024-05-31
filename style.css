@@ -7,12 +7,6 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-/* .android-header {
-    background-color: #202124;
-    color: #ffffff;
-    padding: 1rem 2rem;
-} */
-
 .android-header {
     height: 120px;
     display: flex;
@@ -49,139 +43,6 @@ nav ul{
 nav ul li{
     list-style: none;
 }
-
-
-
-/* .android-header__nav {
-    display: flex;
-    align-items: center;
-} */
-/* 
-.android-header__primary {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.android-header__primary-item {
-    margin: 0 1rem;
-    position: relative;
-}
-
-.cta span {
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0.5rem;
-}
-
-.cta svg {
-    width: 12px;
-    height: 12px;
-}
-
-.android-header__primary-dropdown {
-    background-color: #3c4043;
-    border-radius: 4px;
-    display: none;
-    padding: 1rem;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    z-index: 1000;
-}
-
-.android-header__primary-item:hover .android-header__primary-dropdown {
-    display: block;
-  }
-  
-  .android-header__primary-dropdown ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .android-header__primary-dropdown li {
-    margin: 0.5rem 0;
-  }
-  
-  .android-header__primary-dropdown a {
-    color: #ffffff;
-    text-decoration: none;
-  }
-  
-  .android-header__primary-dropdown a:hover {
-    text-decoration: underline;
-  }
-  
-  .search-default {
-    display: flex;
-    align-items: center;
-    background-color: #3c4043;
-    border-radius: 4px;
-    padding: 0.5rem;
-  }
-  
-  .search-default__label {
-    display: none;
-  }
-  
-  .search-default__open {
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 0.5rem;
-  }
-  
-  .search-default__input {
-    background: none;
-    border: none;
-    color: #ffffff;
-    margin: 0 0.5rem;
-    padding: 0.5rem;
-  }
-  
-  .search-default__input::placeholder {
-    color: #9aa0a6;
-  }
-  
-  .search-default__close {
-    background: none;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 0.5rem;
-  }
-  
-  .search-default__icon {
-    width: 20px;
-    height: 20px;
-  }
-  
-nav u1 {
-    list-style: none;
-    padding: 0;
-}
-
-nav u1 li {
-    color: white;
-    text-decoration: none;
-} */ */
-/* 
-main {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0,0,0.1);
-}  */
-
-
-
-
 
 /* first section styling */
 
@@ -280,13 +141,9 @@ main {
 
 .button-3 button{
     border-radius: 15px;
-    width: 100px;
-    height: 40px;
-    padding: 5px 15px;
+    padding: 5px 8px;
 
 }
-
-/* new andriod phone... */
 
 .new-andriod h2{
     text-align: center;
@@ -354,16 +211,16 @@ main {
     padding-top: 30px;
 }
 .item-1a{
-    background-color: #e8ebde;
+    background-color: #d1e0e7;
     /* width: 120% */
 }
 
 .item-1b{
-    background-color: #d0e8e5;
+    background-color: #e8ebde;
 }
 
 .item-1c{
-    background-color: #d1e0e7;
+    background-color: #d0e8e5;
 }
 
 .flex-section-2 button{
@@ -413,3 +270,78 @@ main {
 }
 
 /* style the footer here */
+
+.footer-container{
+    margin-top: 100px;
+    background-color: #dee2e3;
+}
+
+.footer-items-container{
+    margin: 0 150px;
+    padding-top: 50px;
+}
+
+.follow-us{
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.follow-us img{
+    width: 100px;
+}
+
+.bottom-line{
+    border-bottom: 1px solid #c3bfbf;
+    margin-top: 35px;
+}
+
+.privacy{
+    display: flex;
+    gap: 10rem;
+    font-size: 17px;
+}
+
+.for-enterprise{
+    margin-top: 40px;
+    display: flex;
+    gap: 8rem;
+    font-size: 17px;
+}
+
+.last-line{
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+
+.last-image{
+    text-align: center;
+}
+.last-image img{
+    width: 100px;
+}
+
+
+
+/*footer styles */
+/* .android footer {
+    background-color: #333;
+    color: white;
+    padding-top: 96px;
+    position: relative;
+    z-index: 30
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+.android-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: 20px;
+} */
