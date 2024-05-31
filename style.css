@@ -1,0 +1,16 @@
+
+
+
+
+
+
+/* first section styling */
+.video-frame1{
+    width: 80%;
+    height: auto;
+    margin: auto 30px;
+    border-radius: 15px;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
