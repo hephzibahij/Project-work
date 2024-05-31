@@ -17,14 +17,173 @@
   <u1>
   <li><a href="index.html">Latest Features</a><li>
   <li><a href="about.html">AI On Android</a></li>
+
+  <header class="android-header">
+  <div class="android-header__container">
+      <div class="android-header__logo">
+        <a href="/">
+          <img src="logo.png" alt="Android Logo">
+        </a>
+      </div>
+      <nav class="android-header__bar">
+        <ul class="android-header__primary">
+          <li class="android-header__primary-item" style="--item-order: 0">
+            <button class="cta cta--is-3 js-header-dropdown-btn" data-label="Discover Android"
+              data-dropdown="dropdown-1" aria-haspopup="true" aria-expanded="false"
+              aria-label="Discover Android">
+              <span>Discover Android</span>
+              <svg id="chevron-1" class="icon--svg android-header__primary-arrow"
+                aria-hidden="true">
+                <use href="#ico-arrow-round"></use>
+		 </svg>
+            </button>
+            <div id="dropdown-1" class="android-header__primary-dropdown js-header-dropdown"
+              aria-hidden="true">
+              <ul role="menu">
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="updates/index.html"
+                    data-label="Latest features">
+                    Latest features
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="ai/index.html"
+                    data-label="AI on Android">
+                    AI on Android
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="android-14/index.html"
+                    data-label="Android 14">
+                    Android 14
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="safety/index.html"
+                    data-label="Safety">
+                    Safety
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="accessibility/index.html"
+                    data-label="Accessibility">
+                    Accessibility
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="google-messages/index.html"
+                    data-label="Google Messages">
+                    Google Messages
+                  </a>
+		  </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="better-together/quick-share-app/index.html"
+                    data-label="Quick Share">
+                    Quick Share
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="android-header__primary-item" style="--item-order: 1">
+            <button class="cta cta--is-3 js-header-dropdown-btn" data-label="Switch &amp; transfer"
+              data-dropdown="dropdown-2" aria-haspopup="true" aria-expanded="false"
+              aria-label="Switch &amp; transfer">
+              <span>Switch &amp; transfer</span>
+              <svg id="chevron-2" class="icon--svg android-header__primary-arrow"
+                aria-hidden="true">
+                <use href="#ico-arrow-round"></use>
+              </svg>
+            </button>
+            <div id="dropdown-2" class="android-header__primary-dropdown js-header-dropdown"
+              aria-hidden="true">
+              <ul role="menu">
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="why-android/index.html"
+                    data-label="Why switch to Android">
+                    Why switch to Android
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="switch-to-android/index.html"
+                    data-label="How to switch">
+                    How to switch
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="transfer-data-android-to-android/index.html"
+                    data-label="Transfer your data">
+                    Transfer your data
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="android-header__primary-item" style="--item-order: 2">
+            <button class="cta cta--is-3 js-header-dropdown-btn" data-label="Explore devices"
+              data-dropdown="dropdown-3" aria-haspopup="true" aria-expanded="false"
+              aria-label="Explore devices">
+              <span>Explore devices</span>
+              <svg id="chevron-3" class="icon--svg android-header__primary-arrow"
+                aria-hidden="true">
+                <use href="#ico-arrow-round"></use>
+              </svg>
+            </button>
+            <div id="dropdown-3" class="android-header__primary-dropdown js-header-dropdown"
+              aria-hidden="true">
+              <ul role="menu">
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="phones/index.html"
+                    data-label="Phones">
+                    Phones
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="phones/help-me-choose/index.html"
+                    data-label="Find your phone">
+                    Find your phone
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="tablets/index.html"
+                    data-label="Tablets">
+                    Tablets
+                  </a>
+                </li>
+                <li role="menuitem">
+                  <a class="cta cta--is-3" href="better-together/index.html"
+                    data-label="Connected devices">
+                    Connected devices
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <form class="search-default js-search" data-nimble-component="SearchDefault" data-module="search"
+        data-action="https://www.android.com/results/" id="search-default" method="get" style="--item-order: 6">
+        <label class="search-default__label" for="q">Search</label>
+        <button type="button" class="search-default__open js-open" aria-label="Search">
+          <svg class="icon--svg search-default__icon" aria-hidden="true">
+            <use href="#ico-search"></use>
+          </svg>
+        </button>
+        <input class="search-default__input js-input" autocomplete="off" id="q" name="q"
+          placeholder="Search" type="search">
+        <button class="search-default__close js-close-search" aria-label="close navigation" type="button">
+          <svg class="icon--svg search-default__icon search-default__close-icon" aria-hidden="true">
+            <use href="#ico-close"></use>
     <div class="logo"></div>
     <nav class="navigation"></nav>
     <div class="search"></div>
     <div class="shop-phones"></div>
 
         <!-- Header section ends -->
+
   </header>
   <main>
+    <!-- first section -->
     <section class="first-section">
       <div class="first-image">
         <img src="https://lh3.googleusercontent.com/Y6zuDTzl68-2z3x1BQsjO9Q2asrypkmeSJ_CM8GDqh3vV0OGGbVzWBBmH0uOi8IqV5QhaV9sNzspBVbyt3ooYSbjdA3ApYm8IwfKOjThSEsno836lTA=w1400-rwa-e366-v1" alt="firt-pics">
@@ -46,12 +205,88 @@
         </div>
       </div>
     </section>
+
+    <!-- second section -->
     <section class="second-section">
       <div class="video-2">
         <video src="/Project-work/images/second video.mp4">
         </video>
       </div>
+      <div class="text-2">
+        <h2>Reimagine <br>
+        Andriod <br>
+        with Google</h2>
+        <div class="button-2">
+          <button>See AI features</button>
+        </div>
     </section>
+
+    <!-- third section -->
+    <section class="third-section">
+      <div class="video-3">
+        <video src="/Project-work/images/third video.webm">
+        </video>
+      </div>
+      <div class="text-3">
+        <h2>Connect <br>
+        to a world <br>
+        of devices</h2>
+        <div class="button-3">
+          <button>Explore now</button>
+        </div>
+    </section>
+        <!-- New Andriod phone... -->
+      <section class="new-andriod..">
+        <h2>New Andriod phones dropped</h2>
+        <div class="flex-secttion-1">
+          <div>
+            <img src="" alt="">
+            <h2>Galaxy S24 Ultra</h2>
+            <p>From $1,299.99</p>
+            <button>Shop now</button>
+          </div>
+          <div>
+            <h2>Galaxy Z flip 5</h2>
+            <p>From $999.99</p>
+            <button>Shop now</button>
+          </div>
+          <div>
+            <h2>Galaxy Z Fold 5</h2>
+            <p>From $1,299.99</p>
+            <button>Shop now</button>
+          </div>
+        </div>
+        <!-- flex section -->
+        <div class="flex-secttion-2">
+          <div>
+            <img src="" alt="">
+            <h2>Pixel 8 Pro</h2>
+            <p>From $999.00</p>
+            <button>Shop now</button>
+          </div>
+          <div>
+            <h2>Pixel Fold</h2>
+            <p>From $1,799.99</p>
+            <button>Shop now</button>
+          </div>
+          <div>
+            <h2>Pixel 8a</h2>
+            <p>From $499.99</p>
+            <button>Shop now</button>
+          </div>
+        </div>
+        <button>See all phones</button>
+      </section>
+      <!-- last section -->
+      <section class="last-section">
+        <div class="last-section-text"></div>
+        <div class="last-section-img"></div>
+      </section>
+
+      <!-- footer -->
+      <footer>
+        
+      </footer>
   </main>
 </body>
 </html>

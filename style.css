@@ -48,8 +48,6 @@ main {
 .video-frame1{
     padding: 0 40px;
     margin-top: 0;
-    border: 2px solid red;
-
 }
 
 .video-frame1 img{
@@ -59,9 +57,9 @@ main {
 }
 
 .text-1{
-    color: #fff;
-    position: absolute;
-    top: 220px;
+    /* color: #fff; */
+    /* position: absolute; */
+    /* top: 220px; */
     margin-left: 70px;
     font-size: 17px;
     font-weight: bold;
@@ -74,10 +72,11 @@ main {
 
 }
 
+/* second section */
+
 .second-section{
-    border: 2px rgb(33, 17, 170) solid;
     padding: 0 40px;
-    margin-top: 20;
+    margin-top: 15px;
     /* position: absolute; */
     /* top: 155px; */
 }
@@ -86,4 +85,50 @@ main {
     width: 100%;
     height: auto;
     border-radius: 15px;
+}
+
+.text-2{
+    /* color: #fff; */
+    /* position: absolute; */
+    /* top: 220px; */
+    margin-left: 70px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button-2 button{
+    border: 2px red solid;
+    border-radius: 15px;
+    padding: 5px 8px;
+}
+
+/* third section */
+
+.third-section{
+    padding: 0 40px;
+    margin-top: 15px;
+    /* position: absolute; */
+    /* top: 155px; */
+}
+
+.video-3 video{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-3{
+    /* color: #fff; */
+    /* position: absolute; */
+    /* top: 220px; */
+    margin-left: 70px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.button-3 button{
+    border: 2px red solid;
+    border-radius: 15px;
+    padding: 5px 8px;
+
 }
