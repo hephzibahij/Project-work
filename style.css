@@ -251,3 +251,23 @@ main {
     padding: 5px 8px;
 
 }
+
+/*footer styles */
+.android footer {
+    background-color: #333;
+    color: white;
+    padding-top: 96px;
+    position: relative;
+    z-index: 30
+}
+
+.social-network {
+    display: flex;
+    justify-content: center;
+}
+
+.android-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid: 20px;
+}
