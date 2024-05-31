@@ -5,12 +5,38 @@
 
 
 /* first section styling */
-.video-frame1{
-    width: 50%;
-    height: auto;
-    /* margin: auto 30px; */
-    border-radius: 15px;
-    display: block;
-    justify-content: center;
-    align-items: center;
+
+.first-image{
+    text-align: center;
 }
+
+.first-image img{
+    width: 100px;
+    height: auto;
+}
+
+.video-frame1{
+    padding: 0 50px;
+    margin-top: 0;
+    position: absolute;
+    top: 155px;
+}
+
+.video-frame1 img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* .video-1{
+    padding: 0 50px;
+    margin-top: 0;
+    position: absolute;
+    top: 155px;
+}
+
+.video-1 video{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+} */
