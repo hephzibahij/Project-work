@@ -6,11 +6,11 @@
 
 /* first section styling */
 .video-frame1{
-    width: 80%;
+    width: 50%;
     height: auto;
-    margin: auto 30px;
+    /* margin: auto 30px; */
     border-radius: 15px;
-    /* display: block;
+    display: block;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
